@@ -7,9 +7,10 @@ def swap_list(inputs):
         middle = (middle1st + middle2nd) / 2 
     else:
         middle = int(len(inputs) / 2)
-        
 
     last = len(inputs) - 1
-    inputs[last], inputs[middle] = inputs[middle], inputs[last]
     
+    inputs[last], inputs[middle] = inputs[middle], inputs[last]
+
+    return inputs
 
