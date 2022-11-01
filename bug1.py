@@ -10,6 +10,7 @@ def __init__(self, x, y, size):
         def __init__(self, x, y, size):
             super().__init__(self, x, y, size)
         def draw(self):
-            return """"""
+            return f" "" "
+        
 
         
