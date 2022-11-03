@@ -1,21 +1,7 @@
-def increment_int_a(someval):
-    someval += 1
-
-def increment_int_b(someval):
-    someval[0] += 1
-
-def main():
-    a = 32
-    print(a)
-    increment_int_a(a)   
-    b = [32]
-    print(b)
-    increment_int_b(b)
-
-# 1. No
-# 2. Yes
-# 3. The difference between increment_int_a and increment_int_b is that in increment_int_a,
-# the value of the variable is increased by one within the function, without being returned
-# to main. Thus, the value of the variable in main remains unchanged, at 32, but with the function
-# increment_int_b, the value at the address of the variable is changed and thus, the value of the 0
-# index is updated to 33 and can be viewed in the main function as well
+1. No
+2. Yes
+3. The difference between increment_int_a and increment_int_b is that in increment_int_a,
+the value of the variable is increased by one within the function, without being returned
+to main. Thus, the value of the variable in main remains unchanged, at 32, but with the function
+increment_int_b, the value at the address of the variable is changed and thus, the value of the 0
+index is updated to 33 and can be viewed in the main function as well
