@@ -1,8 +1,11 @@
 import time
 
 def timestamp(X):
-    c = time.ctime()
+    print(decoTime())
     print('hi')
 
 def decoTime():
-    
+    c = time.ctime()
+    return c
+
+timestamp(decoTime)

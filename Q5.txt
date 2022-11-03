@@ -12,7 +12,8 @@ def main():
     print(b)
     increment_int_b(b)
 
-
+# 1. No
+# 2. Yes
 # 3. The difference between increment_int_a and increment_int_b is that in increment_int_a,
 # the value of the variable is increased by one within the function, without being returned
 # to main. Thus, the value of the variable in main remains unchanged, at 32, but with the function
