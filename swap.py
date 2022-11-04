@@ -9,6 +9,3 @@ def swap_list(inputs):
     inputs[last], inputs[middle] = inputs[middle], inputs[last]
 
     return inputs
-value = [12,35]
-
-print(swap_list(value))
