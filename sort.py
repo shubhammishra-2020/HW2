@@ -5,6 +5,4 @@ def sort_dictionary(values):
         res.append((item[0], item[1][0]))
     return res
         
-        
-
 
