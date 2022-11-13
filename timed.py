@@ -2,7 +2,7 @@ import time
 
 def timeme(func):
 
-    def wrapper(t):
+    def wrapper():
         start = time.time()
         result = func()
         end = time.time()
