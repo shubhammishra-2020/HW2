@@ -1,10 +1,10 @@
 import time
 
-def timeme(X):
-
-    def elapsed():
+def timeme(func):
+    def wrapper(t):
         start = time.time()
-        X()
+        result = func(t)
         end = time.time()
-        print(f"Total Time {end-start}")
-    return elapsed
+        print('Total time %s' % (end - start))
+        return result
+    return wrapper
