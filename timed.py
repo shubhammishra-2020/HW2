@@ -7,5 +7,4 @@ def timeme(X):
         X()
         end = time.time()
         print(f"Total Time {end-start}")
-        return elapsed
- 
+    return elapsed
